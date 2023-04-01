@@ -1,6 +1,6 @@
 # MPRAbase
 data/mprabase_v4_6.db
-synapse-authToken.tsv
+synapse-authToken_*.tsv
 # R packaging
 .Rproj.user
 .Rhistory
