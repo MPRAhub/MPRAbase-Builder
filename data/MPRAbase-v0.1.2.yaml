@@ -1,0 +1,32 @@
+datasets:
+- id: BFC1
+  title: BFC1
+  uri: localhost://../../MPRAbase-Builder/data/GSE124008/GSE124008-BNA_H3K27ac.rds
+  description: BFC1
+- id: BFC2
+  title: BFC2
+  uri: localhost://../../MPRAbase-Builder/data/GSE124008/GSE124008-BNA_TF_H3K27ac.rds
+  description: BFC2
+- id: BFC3
+  title: BFC3
+  uri: localhost://../../MPRAbase-Builder/data/GSE124008/GSE124008-BNA_TF.rds
+  description: BFC3
+initial:
+- id: config1rcall
+  title: MPRA Secondary Analysis
+  datasets:
+  - BFC1
+  uri: localhost://../../MPRAbase-Builder/configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
+- id: config2rcall
+  title: MPRA Secondary Analysis
+  datasets:
+  - BFC2
+  uri: localhost://../../MPRAbase-Builder/configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
+- id: config3rcall
+  title: MPRA Secondary Analysis
+  datasets:
+  - BFC3
+  uri: localhost://../../MPRAbase-Builder/configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
