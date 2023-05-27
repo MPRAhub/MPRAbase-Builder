@@ -1,3 +1,3 @@
 # MPRAbase-Builder
 
-The purpose of the MPRAbase-Builder repository is for semi-automating how to contribute a NextGenerationSequencing **(NGS) object** to MPRAbase. Here we provide an automated MPRAsnakeflow primary quality control report in Rmarkdown format and data wrangling your NGS object for contributing to MPRAbase.
+The MPRAbase-Builder repository serves the purpose of semi-automating the process of contributing a Next Generation Sequencing (NGS) object to MPRAbase. It provides an automated MPRAsnakeflow primary quality control report in Rmarkdown format, as well as the library(MPRAbase) data wrangling capabilities for preparing your NGS object for submission to MPRAbase.
