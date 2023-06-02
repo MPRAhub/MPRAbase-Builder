@@ -16,17 +16,17 @@ initial:
   title: MPRA Secondary Analysis
   datasets:
   - BFC1
-  uri: localhost://../../MPRAbase-Builder/configs/analysis-secondary.R
+  uri: localhost://../../MPRAbase-Builder/app-configs/MPRA-analysis-secondary.R
   description: Test `SampleAssay` panel for biological replicate correlation analysis.
 - id: config2rcall
   title: MPRA Secondary Analysis
   datasets:
   - BFC2
-  uri: localhost://../../MPRAbase-Builder/configs/analysis-secondary.R
+  uri: localhost://../../MPRAbase-Builder/app-configs/MPRA-analysis-secondary.R
   description: Test `SampleAssay` panel for biological replicate correlation analysis.
 - id: config3rcall
   title: MPRA Secondary Analysis
   datasets:
   - BFC3
-  uri: localhost://../../MPRAbase-Builder/configs/analysis-secondary.R
+  uri: localhost://../../MPRAbase-Builder/app-configs/MPRA-analysis-secondary.R
   description: Test `SampleAssay` panel for biological replicate correlation analysis.
