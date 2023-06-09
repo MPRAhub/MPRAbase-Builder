@@ -2,14 +2,17 @@ datasets:
 - id: BFC1
   title: BFC1
   uri: localhost://../../MPRAbase-Builder/data/GSE124008/GSE124008-BNA_H3K27ac.rds
+  GEO: GSE124008
   description: BFC1
 - id: BFC2
   title: BFC2
   uri: localhost://../../MPRAbase-Builder/data/GSE124008/GSE124008-BNA_TF_H3K27ac.rds
+  GEO: GSE124008
   description: BFC2
 - id: BFC3
   title: BFC3
   uri: localhost://../../MPRAbase-Builder/data/GSE124008/GSE124008-BNA_TF.rds
+  GEO: GSE124008
   description: BFC3
 initial:
 - id: config1rcall
