@@ -1,6 +1,7 @@
 # MPRAbase
 data/mprabase_v4_6.db
 synapse-token_*.tsv
+data/RDS/*
 # R packaging
 .Rproj.user
 .Rhistory

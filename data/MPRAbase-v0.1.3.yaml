@@ -1,0 +1,90 @@
+datasets:
+- id: BFC1
+  uri: localhost://../../MPRAbase-Builder/RDS//SRP018414-Liver_SE.rds
+  title: SRP018414-Liver_SE
+  provider: Ahituv,Ovcharenko,Shendure 
+  contact: Ahituv,Ovcharenko,Shendure 
+  geo: Not found
+  encode: Not found
+  PMID: 23892608
+  Organism: Mus musculus 
+  LibraryType: plasmid 
+  ResourceName: mouse liver 
+  SampleName: Robin_MPRA_mouse 
+  description: In Development
+  reference: Smith RP. et al. Massively parallel decoding of mammalian regulatory
+    sequences supports a flexible organizational model.Nat Genet 45,1021-1028(2013
+    Sep)
+- id: BFC2
+  uri: localhost://../../MPRAbase-Builder/RDS//SRP018414-Robin_Hepg2_SE.rds
+  title: SRP018414-Robin_Hepg2_SE
+  provider: Ahituv,Ovcharenko,Shendure 
+  contact: Ahituv,Ovcharenko,Shendure 
+  geo: Not found
+  encode: Not found
+  PMID: 23892608
+  Organism: Homo sapiens 
+  LibraryType: plasmid 
+  ResourceName: HepG2 
+  SampleName: Robin_Hepg2 
+  description: In Development
+  reference: Smith RP. et al. Massively parallel decoding of mammalian regulatory
+    sequences supports a flexible organizational model.Nat Genet 45,1021-1028(2013
+    Sep)
+- id: BFC3
+  uri: localhost://../../MPRAbase-Builder/RDS//SRP044727-Hela_SE.rds
+  title: SRP044727-Hela_SE
+  provider: Ahituv,Shendure 
+  contact: Ahituv,Shendure 
+  geo: Not found
+  encode: Not found
+  PMID: 25340400
+  Organism: Homo sapiens 
+  LibraryType: plasmid 
+  ResourceName: Hela 
+  SampleName: Hela 
+  description: In Development
+  reference: Birnbaum RY. et al. Systematic dissection of coding exons at single nucleotide
+    resolution supports an additional role in cell-specific transcriptional regulation.PLoS
+    Genet 10,e1004592(2014 Oct)
+- id: BFC4
+  uri: localhost://../../MPRAbase-Builder/RDS//SRP044727-Liver_SE.rds
+  title: SRP044727-Liver_SE
+  provider: Ahituv,Shendure 
+  contact: Ahituv,Shendure 
+  geo: Not found
+  encode: Not found
+  PMID: 25340400
+  Organism: Homo sapiens 
+  LibraryType: plasmid 
+  ResourceName: mouse Liver 
+  SampleName: Liver 
+  description: In Development
+  reference: Birnbaum RY. et al. Systematic dissection of coding exons at single nucleotide
+    resolution supports an additional role in cell-specific transcriptional regulation.PLoS
+    Genet 10,e1004592(2014 Oct)
+initial:
+- id: config1
+  datasets:
+  - BFC1
+  title: MPRA Secondary Analysis
+  uri: localhost://../../MPRAbase-Builder/app-configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
+- id: config2
+  datasets:
+  - BFC2
+  title: MPRA Secondary Analysis
+  uri: localhost://../../MPRAbase-Builder/app-configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
+- id: config3
+  datasets:
+  - BFC3
+  title: MPRA Secondary Analysis
+  uri: localhost://../../MPRAbase-Builder/app-configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
+- id: config4
+  datasets:
+  - BFC4
+  title: MPRA Secondary Analysis
+  uri: localhost://../../MPRAbase-Builder/app-configs/analysis-secondary.R
+  description: Test `SampleAssay` panel for biological replicate correlation analysis.
